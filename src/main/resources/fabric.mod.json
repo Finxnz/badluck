@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "badluck",
+  "version": "${version}",
+  "name": "BadLuck Challenges",
+  "description": "A simple challange mod with solo and duo challenges",
+  "authors": [
+    "Finxnz"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/badluck/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.badluck.BadLuckMod"
+    ]
+  },
+  "mixins": [
+    "badluck.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
