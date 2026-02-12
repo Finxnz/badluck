@@ -1,4 +1,4 @@
-# BadLuck - a still in beta challenge mode.
+# BadLuck - a still in beta challenge mod.
 Look at the releases for currently supported mods.
 
 # Give me ideas what to add :)
