@@ -25,15 +25,15 @@ public class DuoChallengeGUI {
         Item glassPane = Registries.ITEM.get(Identifier.ofVanilla("gray_stained_glass_pane"));
 
         ItemStack sharedLivesItem = new ItemStack(heartOfTheSea);
-        sharedLivesItem.set(DataComponentTypes.ITEM_NAME, Text.literal("§d§lGeteilte Leben"));
+        sharedLivesItem.set(DataComponentTypes.ITEM_NAME, Text.literal("§d§lShared HP"));
         inventory.setStack(10, sharedLivesItem);
 
         ItemStack stayCloseItem = new ItemStack(chain);
-        stayCloseItem.set(DataComponentTypes.ITEM_NAME, Text.literal("§e§lGefesselt (Stay Close)"));
+        stayCloseItem.set(DataComponentTypes.ITEM_NAME, Text.literal("§e§lChained (Stay Close)"));
         inventory.setStack(11, stayCloseItem);
 
         ItemStack sharedInvItem = new ItemStack(chest);
-        sharedInvItem.set(DataComponentTypes.ITEM_NAME, Text.literal("§b§lEin Inventar teilen"));
+        sharedInvItem.set(DataComponentTypes.ITEM_NAME, Text.literal("§b§lShare Inventory"));
         inventory.setStack(12, sharedInvItem);
 
         ItemStack blindEyesItem = new ItemStack(enderEye);
@@ -41,7 +41,7 @@ public class DuoChallengeGUI {
         inventory.setStack(14, blindEyesItem);
 
         ItemStack backItem = new ItemStack(arrow);
-        backItem.set(DataComponentTypes.ITEM_NAME, Text.literal("§7Zurück"));
+        backItem.set(DataComponentTypes.ITEM_NAME, Text.literal("§7Back"));
         inventory.setStack(22, backItem);
 
         ItemStack filler = new ItemStack(glassPane);
